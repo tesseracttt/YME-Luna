@@ -1,7 +1,8 @@
 import React from "react";
+import GuidePage from "../components/Guide";
 
 const Guide = () => {
-    return <div></div>;
+    return <GuidePage />;
 };
 
 export default Guide;

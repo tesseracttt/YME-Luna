@@ -5,16 +5,17 @@ import Job from "./pages/job";
 import Bot from "./pages/bot";
 import Guide from "./pages/guide";
 import Profile from "./pages/profile";
+import SideBar from "../src/components/SideBar";
 
 function App() {
     return (
         <Router>
-            {/* <SideBar /> */}
+            <SideBar />
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/jobs" exact component={Job} />
-                <Route path="/feed" exact component={Bot} />
-                <Route path="/chat" exact component={Guide} />
+                <Route path="/job" exact component={Job} />
+                <Route path="/bot" exact component={Bot} />
+                <Route path="/guide" exact component={Guide} />
                 <Route path="/profile" exact component={Profile} />
             </Switch>
         </Router>
