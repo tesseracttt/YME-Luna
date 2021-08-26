@@ -1,5 +1,5 @@
-import { Card, Tabs, Tab, Grid, Text, Icon, Header } from "tabler-react";
-import { TabWrapper, ChartWrapper } from "../HomeElem";
+import { Tabs, Tab } from "tabler-react";
+import { TabWrapper } from "../HomeElem";
 import {
     NRP1,
     NRP2,
@@ -10,11 +10,9 @@ import {
     BNRP3,
     BNRP4,
 } from "../StatsConstant";
-import { Doughnut } from "react-chartjs-2";
 import "tabler-react/dist/Tabler.css";
 import React from "react";
 import { StatsCard, StatsIcon, StatsH2, StatsWrapper } from "./NRPElem";
-import learningIcon from "../../../images/learning.svg";
 
 const NRPStats = () => {
     return (

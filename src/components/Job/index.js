@@ -52,9 +52,9 @@ const JobPage = () => {
                     <b>Jobs Near You</b>
                 </JobSubtitle3>
                 <JobWrapper>
-                    <JobCard {...job5} />
                     <JobCard {...job4} />
                     <JobCard {...job3} />
+                    <JobCard {...job5} />
                     <JobCard {...job2} />
                     <JobCard {...job1} />
                 </JobWrapper>

@@ -1,5 +1,10 @@
 import React from "react";
-import { GuideContainer, Divider, GuideWrapper } from "./GuideElem";
+import {
+    GuideContainer,
+    Divider,
+    GuideWrapper,
+    CarouselContainer,
+} from "./GuideElem";
 import GuideCarousel from "./GuideCarousel";
 import GuideCard from "./GuideCard";
 import { images_arr, guides_arr } from "./GuideConstant";
@@ -11,7 +16,9 @@ const GuidePage = () => {
                 <GuideContainer>
                     <h1>LUNA Guide</h1>
                     <Divider />
-                    <GuideCarousel images={images_arr} />
+                    <CarouselContainer>
+                        <GuideCarousel images={images_arr} />
+                    </CarouselContainer>
                     <Divider />
                     <Divider />
                     <h2>COVID-19 Guide</h2>

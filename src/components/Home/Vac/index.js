@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, Tabs, Tab, Grid, Text, Icon, Header } from "tabler-react";
-import { TabWrapper, ChartWrapper } from "../HomeElem";
+import { Card, Grid, Text, Icon, Header } from "tabler-react";
+import { ChartWrapper } from "../HomeElem";
 import { RakyatStats } from "../StatsConstant";
 import { Doughnut, Pie } from "react-chartjs-2";
 import "tabler-react/dist/Tabler.css";

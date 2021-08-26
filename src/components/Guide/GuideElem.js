@@ -19,6 +19,14 @@ export const Divider = styled.div`
     background-color: ${bgColor};
 `;
 
+export const CarouselContainer = styled.div`
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+`;
+
 // export const CarouselContainer = styled.div`
 //     align-items: center;
 //     align-content: center;

@@ -57,11 +57,6 @@ const Chat = (props) => {
         }
     };
 
-    const initResponse = {
-        text: "Hi there! I'm your AI assistant Luna 😉 How can I help you today?",
-        isBot: true,
-    };
-
     return (
         <div className="chatSection">
             <div className="botContainer">

@@ -1,5 +1,8 @@
 import img1 from "../../images/jobLogo1.jpeg";
 import img2 from "../../images/jobLogo2.jpeg";
+import img3 from "../../images/jobLogo3.jpeg";
+import img4 from "../../images/jobLogo4.jpeg";
+import img5 from "../../images/jobLogo5.jpeg";
 
 export const job1 = {
     id: 1,
@@ -31,7 +34,7 @@ export const job3 = {
     posted: "2d ago",
     type: "Full Time",
     salary: "RM1500/month",
-    img: "https://picsum.photos/id/55/80",
+    img: img3,
 };
 
 export const job4 = {
@@ -42,7 +45,7 @@ export const job4 = {
     posted: "3d ago",
     type: "Full Time",
     salary: "RM1000/month",
-    img: "https://picsum.photos/id/99/80",
+    img: img4,
 };
 
 export const job5 = {
@@ -53,5 +56,5 @@ export const job5 = {
     posted: "5d ago",
     type: "Full Time",
     salary: "RM1500/month",
-    img: "https://picsum.photos/id/88/80",
+    img: img5,
 };
