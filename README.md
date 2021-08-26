@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Getting Started with Luna
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## `yarn install`
 
-## Available Scripts
+Download all the dependencies and required packages
 
-In the project directory, you can run:
+## `yarn start`
 
-### `yarn start`
+Web app will be started at <http://localhost:3000>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## `cd luna-server` and `node index.js`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Back end server will be running at <http://localhost:3001>
 
-### `yarn test`
+## Inspiration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Malaysia has endured a rough period since the pandemic began in 2020, such as the rising unemployment, increasing confirmed cases of Covid-19, and a failing economy. A greater number of people are unemployed, and families have lost their source of income. Due to the public insensitivity and lack of knowledge of Covid-19, the active cases are now increasing rapidly and as of 9.30a.m. today, even reaching the rank 11 globally in terms of active cases. These events brought awareness to us and inspired us to build an application that can make a positive difference in Malaysia’s society and economy.
 
-### `yarn build`
+### What it does
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It is a user-friendly website that allows users to search for employment without going through multiple social media, newspapers or even going outside. It also provides users with the fastest channel to obtain useful and reliable information regarding Covid-19 and lockdowns. Luna aims to support low to medium income families in overcoming the COVID-19 crisis and to educate citizens on how to combat COVID-19.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### How we built it
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This web application is built with React JS as the front end, and Node JS as the backend integrating with Dialogflow, the AI chatbot API.
 
-### `yarn eject`
+### Challenges we ran into
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Accomplishments that we're proud of
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We are able to build a complete web application prototype using React JS and Node JS even there is a team member who is not familiar with the framework at all (which is Kay)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### What we learned
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+We’ve learned how to train an AI chatbot with phrases to interact with users, and successfully compiled a full stack web application. We also learnt the importance of teamwork as the hackathon only runs for 24 hours, collaboration and good communication are essential for the process to go efficiently and smoothly.
 
-## Learn More
+### What's next for
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Connecting job posting data from either employer or job hunting API, continue training the Luna bot to make it more sophisticated. Deploy the web application in a web server.
