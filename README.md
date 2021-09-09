@@ -22,7 +22,7 @@ It is a user-friendly website that allows users to search for employment without
 
 ### How we built it
 
-This web application is built with React JS as the front end, and Node JS as the backend integrating with Dialogflow, the AI chatbot API.
+This web application is built with React JS as the front end, and Node JS as the backend integrating with Dialogflow, the AI chatbot API
 
 ### Challenges we ran into
 
