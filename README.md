@@ -28,7 +28,7 @@ This web application is built with React JS as the front end, and Node JS as the
 
 ### Accomplishments that we're proud of
 
-We are able to build a complete web application prototype using React JS and Node JS even there is a team member who is not familiar with the framework at all (which is Kay)
+We are able to build a complete web application prototype using React JS and Node JS even there is a team member who is not familiar with the framework at all.
 
 ### What we learned
 
