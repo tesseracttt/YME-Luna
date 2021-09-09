@@ -9,7 +9,7 @@ const HomePage = () => {
         <>
             <HomeContainer>
                 <Main />
-                <MainH1>Follow SOP during NRP (National Recovery Plan)</MainH1>
+                <MainH1>Follow SOP under NRP (National Recovery Plan)</MainH1>
                 <Stats>
                     <NRPStats />
                 </Stats>

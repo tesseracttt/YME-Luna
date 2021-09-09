@@ -7,7 +7,7 @@ export const MainContainer = styled.section`
     align-items: center;
     padding: 0 30px;
     /* height: 900px; */
-    height: 250px;
+    height: 100vh;
     position: relative;
     z-index: 1;
     /* scroll-snap-align: start; */

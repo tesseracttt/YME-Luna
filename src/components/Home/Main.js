@@ -23,9 +23,9 @@ const Main = () => {
                     />
                 </MainBg>
                 <MainContent>
-                    <MainH1>Fight againt COVID-19 Together</MainH1>
+                    <MainH1>Fight against COVID-19 Together</MainH1>
                     <MainH2>
-                        We guard you just like the moon guards the earth
+                        We guard you just like the Moon guards the Earth
                     </MainH2>
                 </MainContent>
             </MainContainer>

@@ -10,7 +10,7 @@ import {
     JobImage,
 } from "./JobElem";
 import JobCard from "./JobCard";
-import { job1, job2, job3, job4, job5 } from "./JobData";
+import { job1, job2, job3, job4, job5, job6 } from "./JobData";
 import JobSearchBar from "./JobSearch";
 import JobDropDown from "./JobDropdown";
 
@@ -52,7 +52,7 @@ const JobPage = () => {
                     <b>Jobs Near You</b>
                 </JobSubtitle3>
                 <JobWrapper>
-                    <JobCard {...job4} />
+                    <JobCard {...job6} />
                     <JobCard {...job3} />
                     <JobCard {...job5} />
                     <JobCard {...job2} />
